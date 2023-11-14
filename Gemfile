@@ -64,3 +64,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# Adding the faker to the project
+gem 'faker'

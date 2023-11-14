@@ -1,0 +1,8 @@
+<h1>Hello to the edit page</h1>
+<%= form_with model: @article do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+  <%= f.submit %>
+<% end %>
